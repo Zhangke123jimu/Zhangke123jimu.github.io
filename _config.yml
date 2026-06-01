@@ -23,14 +23,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./files/zhangke.jpg"
+  avatar           : "zhangke.jpg"
   name             : "Zhang Ke"
   pronouns         : # example: "he/his"  
-  bio              : "Independent researcher on AI-driven Drug Discovery. Previously working on pharmacy and pharmacoeconomics."
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "Interdisciplinary researcher transitioning into AI-driven drug discovery, with a background in pharmacy, pharmacoeconomics and financial engineering."
+  location         : "Sichuan, China"
+  email            : "zhangke123jimu@163.com" 
 
   # Academic websites
   academia         : # URL
