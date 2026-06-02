@@ -2,9 +2,9 @@
 title: "Medication management, health outcomes, and economic burden of severe asthma stratified by asthma control levels"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-11-paper-title-number-1
+permalink: /publication/2026-03-01-paper-title-number-1
 excerpt: 'Severe asthma—a critical subset of asthma—is known for escalating the risk of asthma-related symptoms. This study aims to evaluate the medication management, health outcomes, and economic burden of severe asthma across different control levels in China.'
-date: 2025-11
+date: 2026-03-01
 venue: 'Heart & Lung'
 paperurl: 'https://doi.org/10.1016/j.hrtlng.2025.11.013'
 citation: 'Zhang K, He X, Wu J. Medication management, health outcomes, and economic burden of severe asthma stratified by asthma control levels. Heart Lung. 2026 Mar-Apr;76:66-73. doi: 10.1016/j.hrtlng.2025.11.013'
