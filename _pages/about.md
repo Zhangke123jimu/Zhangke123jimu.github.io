@@ -16,8 +16,8 @@ I am **Ke Zhang**, I earned dual bachelor's degrees in Pharmacy and Financial En
 
 Research interests
 ------
-**Deep learning methods for biological problems** As an entry point for my transition into AI-driven drug discovery, I am currently studying and working on structure-based protein design, especially the inverse protein folding (IPF) problem. \
-**Feature representation and benchmarking for structure-based protein design** I am interested in how geometric features are represented in structure-based protein design models, and how implementation details in feature construction may affect model behavior and benchmark fairness. I am also interested in building fair and comprehensive benchmarks to evaluate model performance under consistent input, preprocessing, and output settings.
+**Deep learning methods for biological problems:** As an entry point for my transition into AI-driven drug discovery, I am currently studying and working on structure-based protein design, especially the inverse protein folding (IPF) problem. \
+**Feature representation and benchmarking for structure-based protein design:** I am interested in how geometric features are represented in structure-based protein design models, and how implementation details in feature construction may affect model behavior and benchmark fairness. I am also interested in building fair and comprehensive benchmarks to evaluate model performance under consistent input, preprocessing, and output settings.
 
 Education
 ------
