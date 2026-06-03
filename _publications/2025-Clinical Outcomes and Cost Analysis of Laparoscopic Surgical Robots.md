@@ -2,7 +2,7 @@
 title: "Real-World Clinical Outcomes and Cost Analysis of Robot-Assisted Surgery"
 collection: publications
 category: pharmacoeconomics_rwe_projects
-permalink: /research-and-publications/2026-Real-World Clinical Outcomes and Cost Analysis of Robot-Assisted Surgery
+permalink: /research-and-publications/2025-Real-World Clinical Outcomes and Cost Analysis of Robot-Assisted Surgery
 excerpt: 'Evaluated clinical outcomes and costs of robot-assisted surgery compared to laparoscopic and traditional surgeries base on the real-world health and medical big data data.'
 date: 2025-08-01
 venue: 'Research project'
