@@ -43,7 +43,7 @@
         {% elsif post.collection == 'publications' and post.category contains 'projects' %}
           <p>{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
         {% elsif post.collection == 'publications' %}
-          {% unless post.category contains 'projects' %}
+           {% unless post.category contains 'projects' %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
            {% endunless %}
         {% elsif post.date %}
