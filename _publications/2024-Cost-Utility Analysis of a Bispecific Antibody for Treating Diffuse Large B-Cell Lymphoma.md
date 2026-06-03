@@ -1,5 +1,5 @@
 ---
-title: "Real-World Clinical Outcomes and Cost Analysis of Robot-Assisted Surgery"
+title: "Cost-Utility Analysis of a Bispecific Antibody for Treating Diffuse Large B-Cell Lymphoma"
 collection: publications
 category: pharmacoeconomics_rwe_projects
 permalink: /research-and-publications/2024-Cost-Utility Analysis of a Bispecific Antibody for Treating Diffuse Large B-Cell Lymphoma
