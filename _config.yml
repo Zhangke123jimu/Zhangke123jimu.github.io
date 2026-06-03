@@ -42,8 +42,10 @@ author:
 publication_category:
   books:
     title: 'Books'
-  projects:
-    title: "Research Projects"
+  aidd_projects:
+    title: 'Current AIDD Research Projects'
+  pharmacoeconomics_rwe_projects:
+    title: 'Previous Pharmacoeconomics and RWE Projects'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
