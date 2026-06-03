@@ -36,10 +36,10 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' and post.category contains 'projects' %}
+        {% elsif page.collection == 'publications' and page.category contains 'projects' %}
           <p>{{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-          {% unless post.category contains 'projects' %}
+          {% unless page.category contains 'projects' %}
             <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endunless %}
         {% elsif page.date %}
