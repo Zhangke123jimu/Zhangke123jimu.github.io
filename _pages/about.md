@@ -22,11 +22,11 @@ Research interests
 Education
 ------
 - Tianjin University:	2022-2025 \
-Programme: Master of Management in Health and Pharmaceutical Administration
+Programme: Master of Management in Health and Pharmaceutical Administration \
 Focus: Pharmacoeconomics and Real-World Research 
 
 - Sichuan University:	2018-2022 \
-Programme: Bachelor of Science in Pharmacy and Financial Engineering
+Programme: Bachelor of Science in Pharmacy and Financial Engineering \
 Dual Degree
 
 Awards
