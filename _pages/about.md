@@ -12,7 +12,7 @@ redirect_from:
   <strong>Last updated:</strong> June 01, 2026
 </p>
 
-I am **Ke Zhang**, I earned dual bachelor's degrees in Pharmacy and Financial Engineering from Sichuan University, and received my master's degree from Tianjin University, where my work focused on pharmacoeconomics and real-world research. I am now transitioning my research focus into AI-driven drug discovery, motivated by the potential of AI techniques to accelerate drug discovery and improve human well-being.
+I am **Ke Zhang**. I earned dual bachelor's degrees in Pharmacy and Financial Engineering from Sichuan University, and received my master's degree from Tianjin University, where my work focused on pharmacoeconomics and real-world research. I am now transitioning my research focus into AI-driven drug discovery, motivated by the potential of AI techniques to accelerate drug discovery and improve human well-being.
 
 Research interests
 ------
