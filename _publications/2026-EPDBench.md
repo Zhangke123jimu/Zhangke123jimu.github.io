@@ -1,7 +1,7 @@
 ---
 title: "EPDBench—An Extended Benchmark and Evaluation Framework for Computational Protein Design Methods"
 collection: publications
-category: projects
+category: aidd_projects
 permalink: /research-and-publications/2026-EPDBench
 excerpt: '[EPDBench](https://github.com/Zhangke123jimu/EPDBench) is an extended benchmark and evaluation framework built on top of PDBench for fixed-backbone protein sequence design.'
 date: 2026-01-01
