@@ -1,0 +1,10 @@
+---
+title: "Real-world medication treatment status in patients with severe asthma"
+collection: publications
+category: manuscript
+excerpt: 'This paper served as preliminary exploratory work for the later study, “Medication management, health outcomes, and economic burden of severe asthma stratified by asthma control levels.'
+date: 2025-03-01
+venue: 'Chinese Journal of Hospital Pharmacy'
+paperurl: 'https://kns.cnki.net/kcms2/article/abstract?v=t_h3i5Pmq2wJvuJR1MsOleM9cXQ4UGRZ1isoDFTa0f80g1PTd48pf-0gdQ4kCaCTI817zR29NlYvjB4DULwOWuddsbmvnMuZ0SGMQ7or3B0E4LZaIzn7niLE5jBuusFmjx-RAfPovAHYHu2y1Ic8ZbZncV0MPMSjXLVHI5mbhTT-FbkN8F6SDBNHmY35pz2SnwnCTg1KzI0'
+citation: 'Zhang K, He XN, Wu J. Ji yu zhen shi shi jie shu ju de zhong du xiao chuan huan zhe yao wu zhi liao xian zhuang shi zheng yan jiu [Real-world medication treatment status in patients with severe asthma] (in Chinese).Chinese Journal of Hospital Pharmacy,2025,45(5):489-494.DOI:10.13286/j.1001-5213.2025.05.02.'
+---
