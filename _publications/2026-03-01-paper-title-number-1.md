@@ -6,5 +6,5 @@ excerpt: 'Severe asthma—a critical subset of asthma—is known for escalating 
 date: 2026-03-01
 venue: 'Heart & Lung'
 paperurl: 'https://doi.org/10.1016/j.hrtlng.2025.11.013'
-citation: 'Zhang K, He X, Wu J. Medication management, health outcomes, and economic burden of severe asthma stratified by asthma control levels. Heart Lung. 2026 Mar-Apr;76:66-73. doi: 10.1016/j.hrtlng.2025.11.013'
+citation: '<strong>Zhang K<strong>, He X, Wu J. Medication management, health outcomes, and economic burden of severe asthma stratified by asthma control levels. Heart Lung. 2026 Mar-Apr;76:66-73. doi: 10.1016/j.hrtlng.2025.11.013.'
 ---
