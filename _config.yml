@@ -42,6 +42,8 @@ author:
 publication_category:
   books:
     title: 'Books'
+  projects:
+    title: "Research Projects"
   manuscripts:
     title: 'Journal Articles'    
   conferences:
