@@ -11,8 +11,6 @@ paperurl: 'https://github.com/Zhangke123jimu/EPDBench'
 EPDBench is an extended benchmark and evaluation framework built on top of PDBench for fixed-backbone protein sequence design. Compared with the original PDBench, EPDBench adds a lightweight reference baseline, expands evaluation outputs, 
 improves handling of uncommon amino acids, and updates selected dependencies and code paths for better compatibility with current environments. 
 
-<br>
-
 Main extensions include:
 
 1. A LightWeightReference (LWR) model has been added as a lightweight, easy-to-maintain baseline rather than a state-of-the-art method.
