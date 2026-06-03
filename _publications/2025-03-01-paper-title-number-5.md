@@ -1,7 +1,7 @@
 ---
 title: "Real-world medication treatment status in patients with severe asthma"
 collection: publications
-category: manuscript
+category: manuscripts
 excerpt: 'This paper served as preliminary exploratory work for the later study, “Medication management, health outcomes, and economic burden of severe asthma stratified by asthma control levels.'
 date: 2025-03-01
 venue: 'Chinese Journal of Hospital Pharmacy'
