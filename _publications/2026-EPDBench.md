@@ -4,7 +4,7 @@ collection: publications
 category: aidd_projects
 permalink: /research-and-publications/2026-EPDBench
 excerpt: '[EPDBench](https://github.com/Zhangke123jimu/EPDBench) is an extended benchmark and evaluation framework built on top of PDBench for fixed-backbone protein sequence design.'
-date: 2026-01-01
+date: 2026-03-01
 venue: 'Research project'
 paperurl: 'https://github.com/Zhangke123jimu/EPDBench'
 ---
