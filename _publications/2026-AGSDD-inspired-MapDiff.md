@@ -4,7 +4,7 @@ collection: publications
 category: aidd_projects
 permalink: /research-and-publications/2026-AGSDD-inspired-MapDiff
 excerpt: 'A geometry-corrected, [AGSDD-inspired extension of MapDiff](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff) for fixed-backbone protein sequence design.'
-date: 2026-01-01
+date: 2026-05-01
 venue: 'Research project'
 paperurl: 'https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff'
 ---
