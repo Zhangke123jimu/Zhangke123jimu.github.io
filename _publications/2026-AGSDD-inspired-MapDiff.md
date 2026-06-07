@@ -31,6 +31,6 @@ This repository also includes several engineering improvements, including DDP-ba
 Hardware note: The original MapDiff experiments were reported on A100 GPUs. The model is trained in FP32 both in original and this repository, so mixed-precision acceleration is not fully used. To keep the reported results comparable, all main-model training runs were performed on 2 x A100 GPUs. 
 For exploratory experiments, rented consumer GPUs with sufficient VRAM may be a practical lower-cost alternative and can be competitive in wall-clock time for FP32 training, although this depends on the specific hardware。
 
-![MapDiff]([https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff/main/image/AGSDD-inspired-MapDiff.png?raw=true](https://raw.githubusercontent.com/Zhangke123jimu/AGSDD-inspired-MapDiff/main/image/AGSDD-inspired-MapDiff.png))
+![MapDiff](https://raw.githubusercontent.com/Zhangke123jimu/AGSDD-inspired-MapDiff/main/image/AGSDD-inspired-MapDiff.png)
 
 See [AGSDD-inspired-MapDiff](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff) for details.
