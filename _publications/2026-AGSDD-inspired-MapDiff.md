@@ -22,8 +22,8 @@ Below is a summary table:
 |             Dihedral-fixed*              |      14.7M       |          61.23           |    3.54    |
 |  Semantic-alignment & Dihedral-fixed**   |      16.3M       |          61.41           |    3.41    |
 
-*Dihedral-fixed: See [Technical Report-Appendix](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff/technical_report.md#Appendix) for details. \
-**Semantic-alignment & Dihedral-fixed: See [Technical Report](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff/technical_report.md) for details.
+*Dihedral-fixed: See [Technical Report-Appendix](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff/tree/main/technical_report.md#Appendix) for details. \
+**Semantic-alignment & Dihedral-fixed: See [Technical Report](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff/tree/main/technical_report.md) for details.
  
 
 This repository also includes several engineering improvements, including DDP-based distributed training, batch downloading and graph construction, and checkpoint resumption.
@@ -31,6 +31,6 @@ This repository also includes several engineering improvements, including DDP-ba
 Hardware note: The original MapDiff experiments were reported on A100 GPUs. The model is trained in FP32 both in original and this repository, so mixed-precision acceleration is not fully used. To keep the reported results comparable, all main-model training runs were performed on 2 x A100 GPUs. 
 For exploratory experiments, rented consumer GPUs with sufficient VRAM may be a practical lower-cost alternative and can be competitive in wall-clock time for FP32 training, although this depends on the specific hardware。
 
-![MapDiff](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff/image/AGSDD-inspired-MapDiff.png)
+![MapDiff](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff/tree/main/image/AGSDD-inspired-MapDiff.png)
 
 See [AGSDD-inspired-MapDiff](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff) for details.
