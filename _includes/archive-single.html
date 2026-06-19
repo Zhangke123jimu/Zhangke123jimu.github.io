@@ -57,7 +57,7 @@
     {% endif %}
 
     {% if post.collection == 'publications' %}
-        {% unless post.category contains 'projects' %}
+        {% unless post.category contains 'projects' or post.category contains 'software' %}
           {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
             <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
           {% elsif post.citation and post.paperurl and post.slidesurl %}
