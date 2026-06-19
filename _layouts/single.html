@@ -38,8 +38,10 @@ layout: default
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'publications' and page.category contains 'projects' %}
           <p>{{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' and page.category contains 'softwares' %}
+          <p>{{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>       
         {% elsif page.venue and page.date %}
-          {% unless page.category contains 'projects' %}
+          {% unless page.category contains 'projects' or page.category contains 'softwares' %}
             <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endunless %}
         {% elsif page.date %}
