@@ -1,36 +1,15 @@
 ---
-title: "A geometry-corrected, AGSDD-inspired extension of MapDiff"
+title: "Investigating the Effect and Mechanism of Semantic Alignment in Fixed-Backbone Protein Sequence Design"
 collection: publications
 category: aidd_projects
 permalink: /research-and-publications/2026-AGSDD-inspired-MapDiff
-excerpt: 'A geometry-corrected, [AGSDD-inspired extension of MapDiff](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff) for fixed-backbone protein sequence design.'
+excerpt: 'This study examines the transferability of AGSDD-inspired semantic alignment (SA) to MapDiff as a case study and further explores its mechanism related to output probability distribution.'
 date: 2026-05-01
 venue: 'Research project'
-paperurl: 'https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff'
+paperurl: 'https://www.researchsquare.com/article/rs-10307155/v1'
 ---
-[AGSDD-inspired-MapDiff](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff) provides a PyTorch implementation of the AGSDD-inspired-MapDiff. [MapDiff](https://github.com/peizhenbai/MapDiff/) (**Ma**sk-**p**rior-guided denoising **Diff**usion) is a deep diffusion model with mask-prior-guided denoising to improve the inverse protein folding task. 
-It works on 3D protein backbone structures to iteratively predict the feasible 1D sequences of amino acids. [AGSDD](https://doi.org/10.1007/978-3-032-06066-2_21) suggests that can improve model performance by aligning hidden representations with amino-acid type semantics. This idea is compatible with MapDiff because both methods rely on message passing and iterative denoising.
-Inspired by that, as an exploratory experiment, this repository modifies the MapDiff's architecture to embed semantic module of AGSDD. In addition, the repository 
-fixes several issues in the backbone dihedral feature calculation of MapDiff implementation. Together, these changes lead to modest improvements in recovery and perplexity, with additional diagnostic analyses provided in the technical report. 
+AGSDD proposed semantic alignment (SA) as a way to incorporate amino-acid-level semantic information into diffusion-based inverse folding, based on the idea that amino-acid types are not merely discrete class indices but may also encode biochemical, functional, and evolutionary regularities. However, it remains unclear whether this idea can be transferred beyond the original AGSDD framework, and the output-level effect of SA remains underexplored. In this study, we use MapDiff as a case study to examine the transferability of AGSDD-inspired SA and analyze its effect on the final amino-acid probability distribution. AGSDD-inspired SA can be integrated into MapDiff and modestly improves perplexity while leaving median recovery largely unchanged. The AGSDD-style increase in true-amino-acid semantic attention is reproducible, but output-level analyses suggest that SA mainly behaves as a distributional regularizer or smoother. Current NSSR and BLOSUM-based probability-mass analyses do not provide clear evidence that SA enhances BLOSUM-defined biochemical similarity.
 
-Below is a summary table: 
-
-|            Version (CATH 4.2)            | Model Parameters | Median Recovery Rate (%) | Perplexity |
-|:----------------------------------------:|:----------------:|:------------------------:|:----------:|
-| Reported MapDiff result (marginal prior) |      14.7M       |          60.93           |    3.43    |
-|          Original reproduction           |      14.7M       |          60.97           |    3.54    |
-|             Dihedral-fixed*              |      14.7M       |          61.23           |    3.54    |
-|  Semantic-alignment & Dihedral-fixed**   |      16.3M       |          61.41           |    3.41    |
-
-*Dihedral-fixed: See [Technical Report-Appendix]([Technical Report-Appendix](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff/blob/main/technical_report.md#appendix)) for details. \
-**Semantic-alignment & Dihedral-fixed: See [Technical Report](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff/blob/main/technical_report.md) for details.
- 
-
-This repository also includes several engineering improvements, including DDP-based distributed training, batch downloading and graph construction, and checkpoint resumption.
-
-Hardware note: The original MapDiff experiments were reported on A100 GPUs. The model is trained in FP32 both in original and this repository, so mixed-precision acceleration is not fully used. To keep the reported results comparable, all main-model training runs were performed on 2 x A100 GPUs. 
-For exploratory experiments, rented consumer GPUs with sufficient VRAM may be a practical lower-cost alternative and can be competitive in wall-clock time for FP32 training, although this depends on the specific hardware。
-
-![MapDiff](https://raw.githubusercontent.com/Zhangke123jimu/AGSDD-inspired-MapDiff/main/image/AGSDD-inspired-MapDiff.png)
+![AGSDD-inspired-MapDiff](https://raw.githubusercontent.com/Zhangke123jimu/AGSDD-inspired-MapDiff/main/image/AGSDD-inspired-MapDiff.svg)
 
 See [AGSDD-inspired-MapDiff](https://github.com/Zhangke123jimu/AGSDD-inspired-MapDiff) for details.
